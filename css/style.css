@@ -72,8 +72,38 @@
     justify-content: center;
     flex-direction: column;    
     align-items: center;   
-    gap: 20px
+    gap: 0px
     ; 
+}
+
+.card-envolvido{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+    align-items: center;
+    gap: 5px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+    align-items: center;  
+    width: 250px;
+    height: 500px; 
+    background: rgb(137,137,138);
+    background: linear-gradient(21deg, rgba(137,137,138,1) 35%, rgba(241,242,244,1) 100%); 
+    border-radius: 10px;
+    border: solid 0.5px #252525;
+}
+
+.foto-envolvido{
+    width: 50%;
+    clip-path: circle();
+}
+
+.descricao-envolvido{
+    font-size: 12px;
 }
 
 
